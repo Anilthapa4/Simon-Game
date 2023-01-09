@@ -1,13 +1,13 @@
 body {
   text-align: center;
-  background-color: #86E5FF;
+  background-color: #3C6255;
 }
 
 #level-title {
   font-family: 'Courier New', Courier, monospace;
   font-size: 3rem;
   margin:  5%;
-  color:white;
+  color:black;
 }
 
 /* .container {
@@ -22,7 +22,7 @@ body {
   display: inline-block;
   height: 150px;
   width: 150px;
-  border: 7px solid whitesmoke;
+  border: 7px solid black;
   border-radius: 20%;
 }
 
