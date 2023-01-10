@@ -4,8 +4,8 @@ body {
 }
 
 #level-title {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 3rem;
+  font-family: Times, Times New Roman, Georgia, serif;
+  font-size: 2rem;
   margin:  5%;
   color:black;
 }
@@ -16,6 +16,14 @@ body {
   margin: auto;
 
 } */
+.left{
+  text-align: left;
+  text-decoration: dashed;
+  color: palegoldenrod;
+  font-size: 3rem;
+  font-family: 'Press Start 2P', cursive;
+  margin: 20px;
+}
 
 .btn {
   margin: 25px;
