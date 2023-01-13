@@ -4,7 +4,7 @@ body {
 }
 
 #level-title {
-  font-family: Times, Times New Roman, Georgia, serif;
+  font-family: font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
   margin:  5%;
   color:black;
@@ -16,7 +16,7 @@ body {
   margin: auto;
 
 } */
-.left{
+.center{
   text-align: left;
   text-decoration: dashed;
   color: palegoldenrod;
