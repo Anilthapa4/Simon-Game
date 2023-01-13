@@ -4,7 +4,7 @@ body {
 }
 
 #level-title {
-  font-family: Times, Times New Roman, Georgia, serif;
+  font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
   margin:  5%;
   color:black;
@@ -17,9 +17,9 @@ body {
 
 } */
 .left{
-  text-align: left;
-  text-decoration: dashed;
-  color: palegoldenrod;
+  text-align: center;
+  /* text-decoration: dashed; */
+  color: rosybrown;
   font-size: 3rem;
   font-family: 'Press Start 2P', cursive;
   margin: 20px;
