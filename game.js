@@ -36,6 +36,7 @@ function checkAnswer(currentLevel) {
           nextSequence();
         }, 1000);
       }
+
     } else {
       playSound("wrong");
       $("body").addClass("game-over");
@@ -84,6 +85,7 @@ function animatePress(currentColour){
         $("#" + currentColour).removeClass("pressed");
     },100);
 }
+
 function startOver(){
     level = 0;
     gamePattern = [];
