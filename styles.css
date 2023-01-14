@@ -23,6 +23,11 @@ body {
   font-family: 'Press Start 2P', cursive;
   margin: 20px;
 }
+p{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+}
 
 .btn {
   margin: 25px;
