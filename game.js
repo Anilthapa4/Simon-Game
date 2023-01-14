@@ -5,7 +5,6 @@ var userClickedPattern=[];
 
 var started = false;
 var level = 0;
-var highscore=0;
 
 // challange 7
 $(document).keydown(function(){
@@ -39,12 +38,7 @@ function checkAnswer(currentLevel) {
     } else {
       playSound("wrong");
       $("body").addClass("game-over");
-      $("#level-title").text("Game Over! Press Any Key to Restart!");
-        
-        if(level > highscore){
-            highscore=level;
-            $("#highscore").text(level);
-        }
+      $("#level-title").text("Game Over!!!. Press Any Key to Restart");
 
       setTimeout(function () {
         $("body").removeClass("game-over");
